@@ -1103,7 +1103,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 16px;
+  gap: 20px;
 }
 
 .channel-header {
