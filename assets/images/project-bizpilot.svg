@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <rect width="600" height="360" fill="#f8fafc" rx="12" />
+  <rect x="20" y="20" width="560" height="320" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" />
+  
+  <!-- Subtle header bar -->
+  <path d="M 20 30 Q 20 20 30 20 L 570 20 Q 580 20 580 30 L 580 60 L 20 60 Z" fill="#f1f5f9" />
+  <circle cx="45" cy="40" r="5" fill="#cbd5e1" />
+  <circle cx="62" cy="40" r="5" fill="#cbd5e1" />
+  <circle cx="79" cy="40" r="5" fill="#cbd5e1" />
+  <text x="300" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="500">BizPilot AI — Financial Health &amp; Forecasting</text>
+
+  <!-- Metric & chart mockup -->
+  <rect x="50" y="90" width="150" height="75" rx="8" fill="#f8fafc" stroke="#e2e8f0" />
+  <text x="65" y="115" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748b">Funding Readiness</text>
+  <text x="65" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#1d4ed8">88%</text>
+
+  <rect x="225" y="90" width="150" height="75" rx="8" fill="#f8fafc" stroke="#e2e8f0" />
+  <text x="240" y="115" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748b">Cash-Flow Score</text>
+  <text x="240" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#059669">Stable</text>
+
+  <rect x="400" y="90" width="150" height="75" rx="8" fill="#f8fafc" stroke="#e2e8f0" />
+  <text x="415" y="115" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748b">AI Engine</text>
+  <text x="415" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#3b82f6">ML Forecast</text>
+
+  <!-- Chart illustration -->
+  <rect x="50" y="185" width="500" height="135" rx="8" fill="#f8fafc" stroke="#e2e8f0" />
+  <!-- Grid lines -->
+  <line x1="70" y1="225" x2="530" y2="225" stroke="#e2e8f0" stroke-dasharray="4" />
+  <line x1="70" y1="265" x2="530" y2="265" stroke="#e2e8f0" stroke-dasharray="4" />
+  <polyline points="80,285 150,260 220,270 290,230 360,240 430,205 510,210" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Data points -->
+  <circle cx="80" cy="285" r="4" fill="#1d4ed8" />
+  <circle cx="150" cy="260" r="4" fill="#1d4ed8" />
+  <circle cx="220" cy="270" r="4" fill="#1d4ed8" />
+  <circle cx="290" cy="230" r="4" fill="#1d4ed8" />
+  <circle cx="360" cy="240" r="4" fill="#1d4ed8" />
+  <circle cx="430" cy="205" r="4" fill="#1d4ed8" />
+  <circle cx="510" cy="210" r="4" fill="#1d4ed8" />
+</svg>

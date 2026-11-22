@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <rect width="600" height="360" fill="#f8fafc" rx="12" />
+  <rect x="20" y="20" width="560" height="320" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" />
+  
+  <!-- Subtle header bar -->
+  <path d="M 20 30 Q 20 20 30 20 L 570 20 Q 580 20 580 30 L 580 60 L 20 60 Z" fill="#f1f5f9" />
+  <circle cx="45" cy="40" r="5" fill="#cbd5e1" />
+  <circle cx="62" cy="40" r="5" fill="#cbd5e1" />
+  <circle cx="79" cy="40" r="5" fill="#cbd5e1" />
+  <text x="300" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="500">Secure Data Wiper — Multi-Pass Sanitization Utility</text>
+
+  <!-- Terminal / Security Visual -->
+  <rect x="50" y="85" width="500" height="235" rx="8" fill="#0f172a" />
+  <text x="75" y="118" font-family="Consolas, Monaco, monospace" font-size="13" fill="#38bdf8">$ ./data-wiper --target /dev/sec_drive --passes 3</text>
+  <text x="75" y="145" font-family="Consolas, Monaco, monospace" font-size="12" fill="#94a3b8">[+] Initializing secure sanitization protocol...</text>
+  <text x="75" y="170" font-family="Consolas, Monaco, monospace" font-size="12" fill="#e2e8f0">[Pass 1/3] Overwriting with 0x00 pattern... [OK]</text>
+  <text x="75" y="195" font-family="Consolas, Monaco, monospace" font-size="12" fill="#e2e8f0">[Pass 2/3] Overwriting with 0xFF pattern... [OK]</text>
+  <text x="75" y="220" font-family="Consolas, Monaco, monospace" font-size="12" fill="#e2e8f0">[Pass 3/3] Overwriting with cryptographically pseudo-random bytes... [OK]</text>
+  
+  <!-- Progress Bar in Terminal -->
+  <rect x="75" y="245" width="450" height="14" rx="7" fill="#334155" />
+  <rect x="75" y="245" width="450" height="14" rx="7" fill="#10b981" />
+  <text x="75" y="285" font-family="Consolas, Monaco, monospace" font-size="13" fill="#4ade80">[✓] Sanitization complete: Zero residual data recoverable.</text>
+</svg>

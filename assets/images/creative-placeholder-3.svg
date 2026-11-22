@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="100%" height="100%">
+  <rect width="500" height="350" fill="#f8fafc" rx="10" />
+  <rect x="15" y="15" width="470" height="320" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 6" />
+  
+  <!-- Subtle icon representing Digital Artwork -->
+  <circle cx="250" cy="140" r="38" fill="#eff6ff" />
+  <!-- Palette icon -->
+  <path d="M 235 125 C 220 125 210 137 210 150 C 210 162 218 168 226 168 C 230 168 232 165 235 163 C 237 161 240 160 244 160 C 255 160 263 152 263 141 C 263 130 250 125 235 125 Z" fill="none" stroke="#2563eb" stroke-width="2" />
+  <circle cx="225" cy="140" r="2.5" fill="#2563eb" />
+  <circle cx="238" cy="135" r="2.5" fill="#2563eb" />
+  <circle cx="248" cy="143" r="2.5" fill="#2563eb" />
+
+  <text x="250" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#1e293b" text-anchor="middle">Digital Artwork</text>
+  <text x="250" y="235" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">Illustrations, digital sketches &amp; concepts</text>
+  <rect x="190" y="260" width="120" height="26" rx="13" fill="#f1f5f9" stroke="#e2e8f0" />
+  <text x="250" y="277" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#475569" text-anchor="middle">Placeholder Slot #3</text>
+</svg>

@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- Basic SEO Metadata -->
+  <title>Kishore M | Cybersecurity Enthusiast &amp; Developer Portfolio</title>
+  <meta name="description" content="Personal portfolio of Kishore M, an Information Technology student at KPRIET interested in cybersecurity, software development, and creative design.">
+  <meta name="author" content="Kishore M">
+  <meta name="keywords" content="Kishore M, Portfolio, Information Technology, Cybersecurity, Software Developer, KPRIET, Web Development">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Open Graph / Social Sharing Meta -->
+  <meta property="og:title" content="Kishore M | Portfolio">
+  <meta property="og:description" content="Exploring Technology. Creating with Purpose. IT student at KPR Institute of Engineering and Technology.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#home" class="skip-link">Skip to main content</a>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="nav-brand" aria-label="Kishore M Home">
+        <span class="brand-name">Kishore M</span>
+        <span class="brand-tag">IT Student &amp; Developer</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions: Theme Toggle & Mobile Menu -->
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <!-- Moon Icon for Light Mode (switch to dark) -->
+          <svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- Sun Icon for Dark Mode (switch to light) -->
+          <svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Notification Toast (for placeholder link clicks) -->
+  <div id="toastNotification" class="toast-notification" role="status" aria-live="polite"></div>
+
+  <main id="main-content">
+    <!-- 1. Home / Hero Section -->
+    <section class="section hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Cybersecurity Enthusiast | Developer | Creative Designer</span>
+          </div>
+
+          <h1 class="hero-name">Kishore M</h1>
+          <h2 class="hero-headline">"Exploring Technology. Creating with Purpose."</h2>
+
+          <p class="hero-intro">
+            I am an Information Technology student interested in cybersecurity, software development, and creative design. I enjoy learning new technologies, solving problems, and building practical projects.
+          </p>
+
+          <!-- Key Quick Facts -->
+          <div class="hero-meta-chips">
+            <span class="meta-chip">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              B.Tech IT (2024–2028)
+            </span>
+            <span class="meta-chip">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              CGPA: 8.58
+            </span>
+            <span class="meta-chip">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Coimbatore, India
+            </span>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              View My Projects
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </a>
+
+            <!-- EDITABLE: Update path to assets/resume.pdf when you place your PDF -->
+            <a href="assets/resume.pdf" class="btn btn-secondary" download="Kishore_M_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              Download Resume
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Profile Photo Placeholder -->
+        <div class="hero-image-wrapper">
+          <div class="profile-card">
+            <img src="assets/profile.jpg" alt="Photograph of Kishore M" class="profile-image" id="profileImage">
+            <div class="profile-caption">
+              <span class="caption-title">Kishore M</span>
+              <span class="caption-sub">KPR Institute of Engineering and Technology</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Background</p>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am an Information Technology undergraduate student at <strong>KPR Institute of Engineering and Technology</strong> in Coimbatore, India (Batch 2024–2028), maintaining an academic CGPA of <strong>8.58</strong>.
+            </p>
+            <p>
+              My interest lies in the intersection of cybersecurity, core software engineering, and creative digital design. I enjoy understanding how computing systems operate at a fundamental level, assessing security configurations, and building reliable, purposeful applications that solve practical everyday problems.
+            </p>
+            <p>
+              Alongside core computer science disciplines, I actively pursue hands-on security concepts—including vulnerability assessment, incident reporting, and Linux environment security. I am also an active member of the KPRIET Design Club, where I explore visual design principles and digital artwork using Adobe Photoshop.
+            </p>
+          </div>
+
+          <!-- Academic & Profile Highlights Card -->
+          <div class="about-highlights-card">
+            <h3 class="highlights-title">Academic &amp; Profile Summary</h3>
+            <ul class="highlights-list">
+              <li class="highlight-item">
+                <span class="highlight-label">Degree</span>
+                <span class="highlight-value">B.Tech in Information Technology</span>
+              </li>
+              <li class="highlight-item">
+                <span class="highlight-label">Institution</span>
+                <span class="highlight-value">KPR Institute of Engineering and Technology</span>
+              </li>
+              <li class="highlight-item">
+                <span class="highlight-label">Duration</span>
+                <span class="highlight-value">2024 – 2028</span>
+              </li>
+              <li class="highlight-item">
+                <span class="highlight-label">Academic CGPA</span>
+                <span class="highlight-value">8.58</span>
+              </li>
+              <li class="highlight-item">
+                <span class="highlight-label">Location</span>
+                <span class="highlight-value">Coimbatore, Tamil Nadu, India</span>
+              </li>
+              <li class="highlight-item">
+                <span class="highlight-label">Core Interests</span>
+                <span class="highlight-value">Cybersecurity, Software Development, Creative Design</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Competencies</p>
+          <h2 class="section-title">Skills &amp; Technical Toolkit</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Programming Languages -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="category-title">Programming Languages</h3>
+            </div>
+            <ul class="skill-tag-list">
+              <li class="skill-tag">Java</li>
+              <li class="skill-tag">Python</li>
+              <li class="skill-tag">C</li>
+            </ul>
+          </div>
+
+          <!-- Category 2: Web Technologies -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              </div>
+              <h3 class="category-title">Web Technologies</h3>
+            </div>
+            <ul class="skill-tag-list">
+              <li class="skill-tag">HTML5</li>
+              <li class="skill-tag">CSS3</li>
+              <li class="skill-tag">JavaScript</li>
+            </ul>
+          </div>
+
+          <!-- Category 3: Core Concepts -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              </div>
+              <h3 class="category-title">Core Concepts</h3>
+            </div>
+            <ul class="skill-tag-list">
+              <li class="skill-tag">Data Structures and Algorithms</li>
+              <li class="skill-tag">Object-Oriented Programming</li>
+              <li class="skill-tag">Operating Systems</li>
+              <li class="skill-tag">Database Management Systems</li>
+            </ul>
+          </div>
+
+          <!-- Category 4: Cybersecurity -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <h3 class="category-title">Cybersecurity</h3>
+            </div>
+            <ul class="skill-tag-list">
+              <li class="skill-tag">Vulnerability Assessment</li>
+              <li class="skill-tag">Incident Reporting</li>
+              <li class="skill-tag">Linux Security</li>
+              <li class="skill-tag">Burp Suite</li>
+              <li class="skill-tag">Nmap</li>
+            </ul>
+          </div>
+
+          <!-- Category 5: Tools &amp; Platforms -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+              </div>
+              <h3 class="category-title">Tools &amp; Environments</h3>
+            </div>
+            <ul class="skill-tag-list">
+              <li class="skill-tag">Git</li>
+              <li class="skill-tag">GitHub</li>
+              <li class="skill-tag">Linux</li>
+              <li class="skill-tag">VS Code</li>
+            </ul>
+          </div>
+
+          <!-- Category 6: Creative Skills -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5"></circle><circle cx="17.5" cy="10.5" r=".5"></circle><circle cx="8.5" cy="7.5" r=".5"></circle><circle cx="6.5" cy="12.5" r=".5"></circle><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.563-2.512 5.563-5.563C21.938 6.5 17.5 2 12 2z"></path></svg>
+              </div>
+              <h3 class="category-title">Creative Skills</h3>
+            </div>
+            <ul class="skill-tag-list">
+              <li class="skill-tag">Adobe Photoshop</li>
+              <li class="skill-tag">Adobe Illustrator</li>
+              <li class="skill-tag">Canva</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Portfolio</p>
+          <h2 class="section-title">Software Projects</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: BizPilot AI -->
+          <article class="project-card" data-repo-url="https://github.com/Kishore-M29/BizPilot-AI">
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-type-tag">AI &amp; Financial Analytics</span>
+              </div>
+              <h3 class="project-title">BizPilot AI – AI-Powered MSME Business Copilot</h3>
+              <ul class="project-bullets">
+                <li>Developed an AI-powered copilot to assess financial health, funding readiness, and cash-flow trends of MSMEs using ML-based scoring and time-series forecasting.</li>
+                <li>Built an LLM-powered conversational layer with a hybrid Rule + ML decision system to generate explainable, actionable recommendations for business growth and funding readiness.</li>
+              </ul>
+              
+              <div class="project-tech-stack">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Machine Learning</span>
+                <span class="tech-badge">Time-Series Forecasting</span>
+                <span class="tech-badge">Conversational AI</span>
+                <span class="tech-badge">Decision Systems</span>
+              </div>
+
+              <div class="project-card-footer">
+                <a href="https://github.com/Kishore-M29/BizPilot-AI" class="btn btn-github project-github-link" target="_blank" rel="noopener noreferrer" aria-label="View BizPilot AI repository on GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <span>View on GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Secure Data Wiper -->
+          <article class="project-card" data-repo-url="https://github.com/Kishore-M29/Secure-Wiper">
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-type-tag">Cybersecurity Utility</span>
+              </div>
+              <h3 class="project-title">Secure Data Wiper</h3>
+              <ul class="project-bullets">
+                <li>Developed a secure file deletion utility that permanently removes files using data overwriting techniques to prevent recovery.</li>
+                <li>Implemented multiple overwrite passes to enhance data privacy and reduce the possibility of file restoration by recovery tools.</li>
+              </ul>
+              
+              <div class="project-tech-stack">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">C</span>
+                <span class="tech-badge">Linux Security</span>
+                <span class="tech-badge">Data Sanitization</span>
+                <span class="tech-badge">File Systems</span>
+              </div>
+
+              <div class="project-card-footer">
+                <a href="https://github.com/Kishore-M29/Secure-Wiper" class="btn btn-github project-github-link" target="_blank" rel="noopener noreferrer" aria-label="View Secure Data Wiper repository on GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <span>View on GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Restaurant Frontend Website -->
+          <article class="project-card" data-repo-url="https://github.com/Kishore-M29/Restaurant-">
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-type-tag">Frontend Development</span>
+                <span class="project-award-tag">BIT Hackathon – Special Mention</span>
+              </div>
+              <h3 class="project-title">Restaurant Frontend Website</h3>
+              <ul class="project-bullets">
+                <li>Developed a restaurant front-end website using frontend technologies with clean user interface, responsiveness, and thoughtful structure.</li>
+                <li>Received the Special Mention Prize at BIT Hackathon for design clarity, accessibility, and interactive web elements.</li>
+              </ul>
+              
+              <div class="project-tech-stack">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Responsive Design</span>
+              </div>
+
+              <div class="project-card-footer">
+                <a href="https://github.com/Kishore-M29/Restaurant-" class="btn btn-github project-github-link" target="_blank" rel="noopener noreferrer" aria-label="View Restaurant Frontend Website repository on GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <span>View on GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Experience Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Work History</p>
+          <h2 class="section-title">Experience</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="experience-timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Cybersecurity Intern</h3>
+                  <h4 class="timeline-company">Avanzo Cyber Security Solutions</h4>
+                </div>
+                <span class="timeline-period">December 2025 – January 2026</span>
+              </div>
+              <ul class="timeline-details">
+                <li>Engaged in hands-on cybersecurity learning and practical lab activities focused on system vulnerabilities.</li>
+                <li>Prepared security findings and incident reports documenting identified risks and technical observations.</li>
+                <li>Drafted Standard Operating Procedure (SOP) documentation for baseline security workflows.</li>
+                <li>Performed structured analysis of security assessment results to recommend practical remediation steps.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Achievements and Activities Section -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Milestones</p>
+          <h2 class="section-title">Achievements &amp; Activities</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="achievements-list">
+          <div class="achievement-card">
+            <div class="achievement-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+            </div>
+            <div class="achievement-body">
+              <h3 class="achievement-title">BIT Hackathon – Special Mention</h3>
+              <p class="achievement-desc">Awarded Special Mention for developing an interactive and responsive Restaurant Frontend Website during the competitive hackathon.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <div class="achievement-body">
+              <h3 class="achievement-title">TRIXATHON 2025 – Participant</h3>
+              <p class="achievement-desc">Participated in TRIXATHON 2025, tackling collaborative technology problem-solving challenges under strict time constraints.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            </div>
+            <div class="achievement-body">
+              <h3 class="achievement-title">Smart India Hackathon 2025 – Participant</h3>
+              <p class="achievement-desc">Participated in Smart India Hackathon 2025, engaging with national-level problem statements and software ideation.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <div class="achievement-body">
+              <h3 class="achievement-title">Member of Design Club, KPRIET</h3>
+              <p class="achievement-desc">Active contributor to institutional visual branding, event poster design, and creative student community workshops.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Communication</p>
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            I am always open to discussing internship opportunities, security research, software development projects, or collaborations. You can message me directly via Email or WhatsApp!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- 1. Email Channel Card -->
+          <div class="contact-card direct-channel-card">
+            <div class="channel-header">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="channel-info">
+                <h3 class="contact-label">Email Address</h3>
+                <a href="mailto:kishoremari2901@gmail.com" class="contact-value-link" id="emailLink">kishoremari2901@gmail.com</a>
+              </div>
+            </div>
+            <p class="contact-hint">Drop an email for internship inquiries, technical discussions, or opportunities.</p>
+            <div class="channel-actions">
+              <a href="mailto:kishoremari2901@gmail.com" class="btn btn-primary btn-sm">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                Send Email
+              </a>
+              <button class="btn btn-copy" id="copyEmailBtn" aria-label="Copy email address to clipboard" data-email="kishoremari2901@gmail.com">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <span>Copy Email</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- 2. WhatsApp & Mobile Channel Card -->
+          <div class="contact-card direct-channel-card whatsapp-channel">
+            <div class="channel-header">
+              <div class="contact-card-icon icon-whatsapp" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+              </div>
+              <div class="channel-info">
+                <h3 class="contact-label">Mobile &amp; WhatsApp</h3>
+                <a href="https://wa.me/919363629878?text=Hello%20Kishore%2C%20I%20saw%20your%20portfolio!" target="_blank" rel="noopener noreferrer" class="contact-value-link" id="phoneLink">+91 9363629878</a>
+              </div>
+            </div>
+            <p class="contact-hint">Quickest direct contact! Send a message on WhatsApp or call.</p>
+            <div class="channel-actions">
+              <a href="https://wa.me/919363629878?text=Hello%20Kishore%2C%20I%20saw%20your%20portfolio!" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.01-1.24-.74-.66-1.24-1.48-1.39-1.73-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.54.61.19 1.16.17 1.6.1.49-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.17-.48-.29z"/>
+                </svg>
+                Message on WhatsApp
+              </a>
+              <a href="tel:+919363629878" class="btn btn-secondary btn-sm">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                Call
+              </a>
+              <button class="btn btn-copy" id="copyPhoneBtn" aria-label="Copy mobile number to clipboard" data-phone="+919363629878">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <span>Copy</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- 3. Professional Profiles Card -->
+          <div class="contact-card profiles-contact full-width-card">
+            <h3 class="profiles-card-title">Professional &amp; Coding Profiles</h3>
+            <p class="profiles-card-desc">Connect with me on professional and development platforms:</p>
+
+            <div class="social-links-list">
+              <!-- LinkedIn Link -->
+              <a href="https://www.linkedin.com/in/kishorem29/" class="social-link-item external-profile-link" target="_blank" rel="noopener noreferrer" aria-label="Kishore M LinkedIn Profile">
+                <div class="social-link-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <div class="social-link-text">
+                  <span class="social-link-title">LinkedIn</span>
+                  <span class="social-link-sub">linkedin.com/in/kishorem29</span>
+                </div>
+                <div class="social-link-arrow" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </div>
+              </a>
+
+              <!-- GitHub Link -->
+              <a href="https://github.com/Kishore-M29" class="social-link-item external-profile-link" target="_blank" rel="noopener noreferrer" aria-label="Kishore M GitHub Profile">
+                <div class="social-link-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </div>
+                <div class="social-link-text">
+                  <span class="social-link-title">GitHub</span>
+                  <span class="social-link-sub">github.com/Kishore-M29</span>
+                </div>
+                <div class="social-link-arrow" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </div>
+              </a>
+
+              <!-- LeetCode Link -->
+              <a href="https://leetcode.com/u/Kishore--M/" class="social-link-item external-profile-link" target="_blank" rel="noopener noreferrer" aria-label="Kishore M LeetCode Profile">
+                <div class="social-link-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </div>
+                <div class="social-link-text">
+                  <span class="social-link-title">LeetCode</span>
+                  <span class="social-link-sub">leetcode.com/u/Kishore--M</span>
+                </div>
+                <div class="social-link-arrow" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p class="footer-name"><strong>Kishore M</strong></p>
+        <p class="footer-subtext">
+          Department of Information Technology &bull; KPR Institute of Engineering and Technology
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <a href="#home" class="back-to-top" aria-label="Back to top of the page">
+          <span>Back to Top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="js/script.js"></script>
+</body>
+</html>
